@@ -30,9 +30,7 @@ export async function generateStaticParams() {
 
 export default async function Page({ params }) {
   const cabin = await getCabin(params.cabinId);
-  console.log(cabin)
-
-
+  // console.log(cabin)
 
   // if (image === null) {
   //   image = SpareImg;
